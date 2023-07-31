@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace SpadesDataProject.Migrations
+namespace CrudBucketMVC.Migrations
 {
     /// <inheritdoc />
     public partial class InitialMigration : Migration

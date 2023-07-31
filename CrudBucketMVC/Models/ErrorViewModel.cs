@@ -1,4 +1,4 @@
-namespace SpadesDataProject.Models
+namespace CrudBucketMVC.Models
 {
     public class ErrorViewModel
     {
