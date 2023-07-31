@@ -1,8 +1,8 @@
-﻿using CrudBucketMVC.Models;
+﻿using SpadesDataProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace CrudBucketMVC.Controllers
+namespace SpadesDataProject.Controllers
 {
     public class HomeController : Controller
     {

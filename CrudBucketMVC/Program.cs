@@ -1,4 +1,4 @@
-using CrudBucketMVC.DataAccess;
+using SpadesDataProject.DataAccess;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,9 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<CrudBucketContext>(options =>
+builder.Services.AddDbContext<SpadesContext>(options =>
     options
-        .UseNpgsql(builder.Configuration.GetConnectionString("CrudBucketDb"))
+        .UseNpgsql(builder.Configuration.GetConnectionString("SpadesDb"))
         .UseSnakeCaseNamingConvention()
 );
 
